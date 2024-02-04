@@ -19,7 +19,7 @@ class AppIdea {
 	init(name: String, detailedDescription: String, isArchived: Bool = false, isFavorite: Bool = false) {
 		self.name = name
 		self.detailedDescription = detailedDescription
-		self.creationDate = .now //watch for other modifiers
+		self.creationDate = .now
 		self.isArchived = isArchived
 		self.isFavorite = isFavorite
 	}

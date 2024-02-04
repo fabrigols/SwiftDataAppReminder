@@ -8,7 +8,6 @@
 import SwiftUI
 import SwiftData
 
-
 @Model
 class AppFeature {
 	@Attribute(.unique) var detailedDescription: String
